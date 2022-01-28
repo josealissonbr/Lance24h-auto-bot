@@ -7,7 +7,7 @@ var last_t = "";
 function startlopper(){
     var t1 = document.getElementById("L_ContDown_1_" + CodigoLeilao).textContent;
     var t2 = document.getElementById("L_ContDown_2_" + CodigoLeilao).textContent;
-    if (t1 == "0" && t2 == "8"){
+    if (t1 == "0" && t2 == "3"){
         if (last_t == t2)
             return;
         last_t = t2;
